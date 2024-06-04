@@ -1,14 +1,14 @@
 import sys
 from cx_Freeze import setup, Executable
 
-# Определяем дополнительные зависимости
+
 build_exe_options = {
     "packages": ["os", "sys", "PyQt5", "matplotlib"],
     "excludes": [],
     "include_files": [
         (r"D:\BGAS_study\Python\kurss\icon_for_taylor.ico", "icon_for_taylor.ico")
     ],
-    "include_msvcr": True,  # Включает библиотеки MS Visual C++ Runtime
+    "include_msvcr": True,
 }
 
 base = None
