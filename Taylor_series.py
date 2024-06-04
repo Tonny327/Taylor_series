@@ -518,3 +518,4 @@ if __name__ == "__main__":
     ui.setupUi(Taylor_series)
     Taylor_series.show()
     sys.exit(app.exec_())
+    
