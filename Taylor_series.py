@@ -15,7 +15,6 @@ def sin_taylor(x, terms):
         coefficients_sin.append(term)
     return sin_approximation, coefficients_sin
 
-
 def cos_taylor(x, terms):
     x_normalized = x % (2 * math.pi)
     cos_approximation = 0
@@ -26,7 +25,6 @@ def cos_taylor(x, terms):
         cos_approximation += term
         coefficients_cos.append(term)
     return cos_approximation, coefficients_cos
-
 
 def tg_taylor(x, terms):
     sin_value, sin_coefficients = sin_taylor(x, terms)
@@ -40,7 +38,6 @@ def tg_taylor(x, terms):
 
     return tg_approximation, tg_coefficients
 
-
 def ctg_taylor(x, terms):
     sin_value, sin_coefficients = sin_taylor(x, terms)
     cos_value, cos_coefficients = cos_taylor(x, terms)
@@ -53,9 +50,13 @@ def ctg_taylor(x, terms):
 
     return ctg_approximation, ctg_coefficients
 
-
 class Ui_Taylor_series(object):
     def setupUi(self, Taylor_series):
+        help_action = QtWidgets.QAction("Справка", Taylor_series)
+        help_action.triggered.connect(self.show_help)
+        menu_bar = Taylor_series.menuBar()
+        menu_bar.addAction(help_action)
+        menu_bar.setStyleSheet("font: 75 10pt \"arial\"; color: rgb(206, 129, 76); background-color: rgb(43, 45, 48);")
         Taylor_series.setObjectName("Taylor_series")
         Taylor_series.resize(907, 573)
         Taylor_series.setAccessibleName("")
@@ -197,6 +198,28 @@ class Ui_Taylor_series(object):
         self.clean.clicked.connect(self.clear_output)
         self.graph.clicked.connect(self.plot_graphs)
 
+    def show_help(self):
+        help_text = """
+        <h2 style="text-align: center;">Справка по приложению "Разложение функции в ряд Тейлора"</h2>
+
+        <h3>Использование:</h3>
+
+        <ol>
+        <li><strong>Выбор функций для разложения:</strong> Выберите одну или несколько функций для разложения, установив флажки напротив соответствующих названий функций.</li>
+        <li><strong>Задание точности разложения:</strong> Выберите желаемое количество членов ряда Тейлора для аппроксимации функции.</li>
+        <li><strong>Ввод значения x:</strong> Введите значение аргумента x в радианах для вычисления функций.</li>
+        <li><strong>Нажмите кнопку "Рассчитать":</strong> После ввода значений и выбора параметров нажмите кнопку "Рассчитать", чтобы выполнить расчет и отобразить результаты.</li>
+        <li><strong>Анализ результатов:</strong> После выполнения расчета результаты будут отображены в текстовом поле справа. Вы также получите информацию о точности аппроксимации и сходимости рядов.</li>
+        <li><strong>Очистка результатов:</strong> Для очистки вывода нажмите кнопку "Очистить".</li>
+        <li><strong>Вывод графиков:</strong> Нажмите кнопку "Вывести график", чтобы построить графики точных значений функций и их аппроксимаций.</li>
+        <li><strong>Справка:</strong> Для получения дополнительной информации о функциональности приложения нажмите на пункт "Справка" в меню и прочитайте описание.</li>
+        </ol>
+        """
+        help_window = QtWidgets.QMessageBox()
+        help_window.setText(help_text)
+        help_window.setWindowTitle("Справка")
+        help_window.setStyleSheet("font: 75 10pt \"arial\"; color: rgb(188, 190, 196); background-color: rgb(43, 45, 48);")
+        help_window.exec_()
     def retranslateUi(self, Taylor_series):
         _translate = QtCore.QCoreApplication.translate
         Taylor_series.setWindowTitle(_translate("Taylor_series", "Разложение функции в ряд Тейлора"))
