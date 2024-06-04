@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f42381cd-f67d-4c2c-994d-59f79ec441c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kurss.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taylor_series.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_asyncio.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_asyncio.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_bz2.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_bz2.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_ctypes.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_ctypes.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_decimal.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_decimal.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_elementtree.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_elementtree.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_hashlib.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_hashlib.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_lzma.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_lzma.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_multiprocessing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_multiprocessing.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_overlapped.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_overlapped.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_queue.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_queue.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_socket.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_socket.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_ssl.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_ssl.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_tkinter.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_tkinter.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_uuid.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_uuid.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_wmi.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/_wmi.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/pyexpat.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/pyexpat.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/select.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/select.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/tcl86t.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/tcl86t.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/tk86t.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/tk86t.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/unicodedata.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/unicodedata.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/zlib1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/lib/zlib1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/python3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/python3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe.win-amd64-3.12/python312.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe.win-amd64-3.12/python312.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +58,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in Test_Taylor_series.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.Taylor_series (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.Taylor_series.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_Taylor_series.executor&quot;: &quot;Run&quot;,
     &quot;Python.cos.executor&quot;: &quot;Run&quot;,
     &quot;Python.design.executor&quot;: &quot;Run&quot;,
     &quot;Python.design1.executor&quot;: &quot;Run&quot;,
@@ -51,13 +70,16 @@
     &quot;Python.lnx.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.qqq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.setup.executor&quot;: &quot;Run&quot;,
     &quot;Python.sin (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.tgx_ctgx.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BGAS_study/Python/kurss&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Taylor_series (1)">
+  <component name="RunManager" selected="Python.setup">
     <configuration name="Taylor_series (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurss" />
       <option name="ENV_FILES" value="" />
@@ -124,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="design" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Taylor_series" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurss" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Taylor_series.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="design1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurss" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,7 +181,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,35 +190,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lnx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in Test_Taylor_series.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="kurss" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lnx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Taylor_series.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.setup" />
         <item itemvalue="Python.Taylor_series (1)" />
+        <item itemvalue="Python.Test_Taylor_series" />
+        <item itemvalue="Python tests.Python tests in Test_Taylor_series.py" />
         <item itemvalue="Python.Taylor_series" />
-        <item itemvalue="Python.design1" />
-        <item itemvalue="Python.design" />
-        <item itemvalue="Python.lnx" />
       </list>
     </recent_temporary>
   </component>
